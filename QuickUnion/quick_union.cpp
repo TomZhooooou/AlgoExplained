@@ -18,7 +18,6 @@ public:
     int root(int i ){ // 找到root并返回
         while(i!= id[i])
         {
-            id[i] = id[id[i]]; // 只通过这个就能 变相实现
             i = id[i];
         }
         return i;
