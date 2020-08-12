@@ -14,11 +14,16 @@ private:
 public:
     QuickUnionUF(int N) //初始化
     {
-        id = new vector<int>(N);
-        sz = new vector<int>(N, 1);//初始化一个size 数组储存每个对象的🌲大小
+        //c++ 不能这样初始化。。
+//        id = new vector<int>(N);
+//        sz = new vector<int>(N, 1);
+        //初始化一个size 数组储存每个对象的🌲大小
+        id.resize(N);
+        sz.resize(N);
         for(int i = 0; i< N; i++)
         {
             id[i] = i; // 先将各对象id指向自己
+            sz[i] = 1;
         }
     }
     int root(int i ){ // 找到root并返回
@@ -33,6 +38,7 @@ public:
     {
         int i = root(p);
         int j = root(q);
+        if(i == j) return;
         if(sz[i] < sz[j])
         {
             id[i] = j; // 小的连接大的

@@ -12,7 +12,7 @@ private:
 public:
     QuickUnionUF(int N) //初始化
     {
-        id = new vector<int>(N);
+        id.resize(N);
         for(int i = 0; i< N; i++) id[i] = i; // 先将各对象id指向自己
     }
     int root(int i ){ // 找到root并返回
