@@ -308,11 +308,10 @@ class UF{
     public: 
     UF(int N)
     {
-        sz.resize(N);
-        id.resize(N);
+				sz = vector<int>(N, 1);
+        id = vector<int>(N);
         for(int i = 0; i< N; ++i){
             id[i] = i;
-            sz[i] = 1;
         }   
     }
     int root(int q)
