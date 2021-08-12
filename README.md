@@ -77,7 +77,7 @@
 
   <details>
 
-    <summary>点击展开折叠</summary>
+    <summary>Click to expand</summary>
 
   #### 23.Merge k Sorted Lists / https://leetcode.com/problems/merge-k-sorted-lists/ 
 
