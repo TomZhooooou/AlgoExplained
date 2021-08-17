@@ -534,7 +534,7 @@
 
   </details>
 
-  **632. Smallest Range Covering Elements from K Lists ** **Hard**
+  **632. Smallest Range Covering Elements from K Lists  Hard**
 
   <details>
 
