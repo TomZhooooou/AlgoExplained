@@ -70,6 +70,10 @@
 
   **56.Merge Intervals** **/ https://leetcode.com/problems/merge-intervals/**
 
+  <details>
+
+  <summary> click to expand </summary>
+
   **-** first sort the intervals by start time, which will help to merge then in order.
 
   
@@ -98,7 +102,13 @@
 
   
 
+  </details>
+
   **57. Insert Interval** **/ https://leetcode.com/problems/insert-interval/**
+
+  <details>
+
+  <summary> click to expand </summary>
 
   Given a set of *non-overlapping* intervals, insert a new interval into the intervals (merge if necessary).
 
@@ -140,11 +150,13 @@
   };
   ```
 
-  
+  </details>
 
   **986. Interval List Intersections** **/ https://leetcode.com/problems/interval-list-intersections/**
 
-  
+  <details>
+
+  <summary> click to expand </summary>
 
   ```
   Input: firstList = [[0,2],[5,10],[13,23],[24,25]], secondList = [[1,5],[8,12],[15,24],[25,26]]
@@ -207,12 +219,11 @@
   };
   ```
 
-  
+  </details>
 
   **253.Meeting Rooms** **/ https://leetcode.com/problems/meeting-rooms-ii/**
 
   <details>
-  </details>
 
   <summary> click to expand </summary>
 
@@ -291,9 +302,13 @@
   };
   ```
 
-  
+  </details>
 
   **759. Employee Free Time / https://leetcode.com/problems/employee-free-time/**
+
+  <details>
+
+  <summary> click to expand </summary>
 
   Solution 1: using priority_queue to sort the intervals and process them one by one
 
@@ -350,7 +365,7 @@
 
   Solution 2: push the intervals into an array and produce a merged list. Then find out all the blank intervals		
 
-  
+  </details>
 
 - 5.Cyclic Sort
 
